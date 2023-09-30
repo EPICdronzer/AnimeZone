@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=OCR A Extended:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-otp">
+      <img class="desktop-otp-child" alt="" src="./public/group-28.svg" />
+
+      <div class="continue-wrapper" id="frameContainer">
+        <b class="continue">Continue</b>
+      </div>
+      <div class="enter-otp-sent">Enter OTP sent on your email.</div>
+      <div class="resend-email">Resend email</div>
+      <div class="frame-parent">
+        <div class="wrapper">
+          <b class="continue">8</b>
+        </div>
+        <div class="container">
+          <b class="continue">7</b>
+        </div>
+        <div class="container">
+          <b class="continue">1</b>
+        </div>
+        <div class="container">
+          <b class="continue">9</b>
+        </div>
+      </div>
+      <div class="header">
+        <div class="rectangle-parent">
+          <div class="group-child"></div>
+          <div class="discord-parent">
+            <div class="discord">
+              <div class="articles">Discord</div>
+            </div>
+            <div class="discord2" id="discordContainer1">
+              <div class="request" id="requestText">Request</div>
+            </div>
+            <div class="discord2" id="discordContainer2">
+              <div class="articles">Articles</div>
+            </div>
+            <div class="discord2" id="discordContainer3">
+              <div class="articles">News</div>
+            </div>
+            <div class="bookmark" id="bookmarkText">Bookmark</div>
+            <div class="discord2" id="discordContainer4">
+              <div class="articles">About</div>
+            </div>
+          </div>
+        </div>
+        <div class="instance-parent">
+          <div class="anime-parent">
+            <div class="anime">ANIME</div>
+            <div class="zone">zone</div>
+          </div>
+          <div class="frame-wrapper">
+            <div class="group-parent">
+              <div class="rectangle-wrapper">
+                <div class="group-item"></div>
+              </div>
+              <div class="search-parent">
+                <img class="search-icon" alt="" src="./public/search.svg" />
+
+                <div class="articles">Search Anime content</div>
+              </div>
+            </div>
+          </div>
+          <div class="cta">
+            <b class="login">Login</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          // Please sync "Desktop-Password-reset" to the project
+        });
+      }
+      
+      var requestText = document.getElementById("requestText");
+      if (requestText) {
+        requestText.addEventListener("click", function (e) {
+          // Please sync "Desktop-Request-article" to the project
+        });
+      }
+      
+      var discordContainer1 = document.getElementById("discordContainer1");
+      if (discordContainer1) {
+        discordContainer1.addEventListener("click", function (e) {
+          // Please sync "Desktop-Request-article" to the project
+        });
+      }
+      
+      var discordContainer2 = document.getElementById("discordContainer2");
+      if (discordContainer2) {
+        discordContainer2.addEventListener("click", function (e) {
+          // Please sync "Desktop-Articles-2" to the project
+        });
+      }
+      
+      var discordContainer3 = document.getElementById("discordContainer3");
+      if (discordContainer3) {
+        discordContainer3.addEventListener("click", function (e) {
+          // Please sync "Desktop-News" to the project
+        });
+      }
+      
+      var bookmarkText = document.getElementById("bookmarkText");
+      if (bookmarkText) {
+        bookmarkText.addEventListener("click", function (e) {
+          // Please sync "Desktop-Bookmark" to the project
+        });
+      }
+      
+      var discordContainer4 = document.getElementById("discordContainer4");
+      if (discordContainer4) {
+        discordContainer4.addEventListener("click", function (e) {
+          // Please sync "Desktop-About" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=OCR A Extended:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-request-article">
+      <div class="component-7">
+        <div class="poll" id="pollText">Poll</div>
+        <div class="article-wrapper">
+          <b class="article">Article</b>
+        </div>
+      </div>
+      <div class="group-parent">
+        <div class="rectangle-parent">
+          <div class="group-child"></div>
+          <b class="name-of-the">Name of the anime</b>
+        </div>
+        <div class="rectangle-group">
+          <div class="group-child"></div>
+          <b class="name-of-the">Topic/Scene you want article on</b>
+        </div>
+        <div class="continue-wrapper">
+          <b class="article">Continue</b>
+        </div>
+      </div>
+      <div class="group-container">
+        <div class="help-parent">
+          <img class="help-icon" alt="" src="./public/help.svg" />
+
+          <div class="you-can-request">
+            You can request the articles that you want to read on a specific
+            topic or a scene from an anime
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-child"></div>
+          <div class="discord-parent">
+            <div class="discord">Discord</div>
+            <div class="discord">Contact Us</div>
+            <div class="discord">Privacy Policy</div>
+            <div class="discord">Terms of Service</div>
+          </div>
+          <div class="subscribe-to-our-newsletter-parent">
+            <div class="discord">Subscribe to our Newsletter</div>
+            <div class="group-wrapper">
+              <div class="frame-wrapper">
+                <div class="frame-div">
+                  <div class="rectangle-container">
+                    <div class="group-inner"></div>
+                    <div class="enter-email-id">Enter Email ID</div>
+                  </div>
+                  <div class="subscribe-wrapper">
+                    <b class="article">Subscribe</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="anime-parent" id="groupContainer6">
+            <div class="anime">ANIME</div>
+            <div class="zone">zone</div>
+          </div>
+          <div class="copyright-2023-container">
+            <p class="all-rights-reserved">Copyright © 2023 Anime Zone.</p>
+            <p class="all-rights-reserved">All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="group-div">
+          <div class="footer-child"></div>
+          <div class="discord-group">
+            <div class="discord1">
+              <div class="discord">Discord</div>
+            </div>
+            <div class="discord3" id="discordContainer1">
+              <b class="request" id="requestText">Request</b>
+            </div>
+            <div class="discord4" id="discordContainer2">
+              <div class="discord">Articles</div>
+            </div>
+            <div class="discord4" id="discordContainer3">
+              <div class="discord">News</div>
+            </div>
+            <div class="bookmark" id="bookmarkText">Bookmark</div>
+            <div class="discord4" id="discordContainer4">
+              <div class="discord">About</div>
+            </div>
+          </div>
+        </div>
+        <div class="instance-parent">
+          <div class="anime-group">
+            <div class="anime">ANIME</div>
+            <div class="zone1">zone</div>
+          </div>
+          <div class="frame-container">
+            <div class="group-parent1">
+              <div class="rectangle-wrapper">
+                <div class="group-child1"></div>
+              </div>
+              <div class="search-parent">
+                <img class="search-icon" alt="" src="./public/search.svg" />
+
+                <div class="discord">Search Anime content</div>
+              </div>
+            </div>
+          </div>
+          <div class="cta">
+            <b class="login">Login</b>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var pollText = document.getElementById("pollText");
+      if (pollText) {
+        pollText.addEventListener("click", function (e) {
+          // Please sync "Desktop-Request-poll" to the project
+        });
+      }
+      
+      var groupContainer6 = document.getElementById("groupContainer6");
+      if (groupContainer6) {
+        groupContainer6.addEventListener("click", function (e) {
+          // Please sync "Desktop-homepage" to the project
+        });
+      }
+      
+      var requestText = document.getElementById("requestText");
+      if (requestText) {
+        requestText.addEventListener("click", function (e) {
+          window.location.href = "desktop-request-article.html";
+        });
+      }
+      
+      var discordContainer1 = document.getElementById("discordContainer1");
+      if (discordContainer1) {
+        discordContainer1.addEventListener("click", function (e) {
+          window.location.href = "desktop-request-article.html";
+        });
+      }
+      
+      var discordContainer2 = document.getElementById("discordContainer2");
+      if (discordContainer2) {
+        discordContainer2.addEventListener("click", function (e) {
+          // Please sync "Desktop-Articles-2" to the project
+        });
+      }
+      
+      var discordContainer3 = document.getElementById("discordContainer3");
+      if (discordContainer3) {
+        discordContainer3.addEventListener("click", function (e) {
+          // Please sync "Desktop-News" to the project
+        });
+      }
+      
+      var bookmarkText = document.getElementById("bookmarkText");
+      if (bookmarkText) {
+        bookmarkText.addEventListener("click", function (e) {
+          // Please sync "Desktop-Bookmark" to the project
+        });
+      }
+      
+      var discordContainer4 = document.getElementById("discordContainer4");
+      if (discordContainer4) {
+        discordContainer4.addEventListener("click", function (e) {
+          // Please sync "Desktop-About" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
