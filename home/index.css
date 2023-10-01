@@ -649,3 +649,11 @@
   color: var(--color-darkslategray-100);
   font-family: var(--font-montserrat);
 }
+.footer{
+  position: absolute;
+  width: 100vw;
+}
+.gg-1-icon{
+  
+  width: 100vw;
+}
