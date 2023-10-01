@@ -336,3 +336,11 @@
   color: var(--color-darkslategray-100);
   font-family: var(--header-txt);
 }
+.footer{
+  position: absolute;
+  width: 100vw;
+}
+.header{
+  position: absolute;
+  width: 100vw;
+}

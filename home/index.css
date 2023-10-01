@@ -650,7 +650,8 @@
   font-family: var(--font-montserrat);
 }
 .footer{
-  position: absolute;
+  position: fixed;
+  bottom: 0px;
   width: 100vw;
 }
 .gg-1-icon{
